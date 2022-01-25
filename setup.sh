@@ -43,7 +43,7 @@ geovpnnnnnnnnnn="raw.githubusercontent.com/geovpn/scriptvps/main/ohp"
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
 echo "Checking VPS"
-IZIN=$( curl https://raw.githubusercontent.com/Sangarya/izin/main/ipvps | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/zeaking/izin/main/ip | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
