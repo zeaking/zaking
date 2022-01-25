@@ -41,9 +41,9 @@ geovpnnnnnnnnn="raw.githubusercontent.com/zeaking/zaking/main/websocket"
 geovpnnnnnnnnnn="raw.githubusercontent.com/zeaking/zaking/main/ohp"
 
 # Getting
-MYIP=$(wget -q0- ipinfo.io/ip);
+MYIP= $(wget -q0- ipinfo.io/ip);
 echo "Checking VPS"
-#IZIN=$( curl https://raw.githubusercontent.com/zeaking/izin/main /ip.txt | grep $MYIP )
+#IZIN= $( curl https://raw.githubusercontent.com/zeaking/izin/main /ip.txt | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${NC} ${GREEN} Permission Accepted... else
 echo -e "${NC} ${RED} Permission Denied! ${NC}";
