@@ -41,15 +41,10 @@ geovpnnnnnnnnn="raw.githubusercontent.com/zeaking/zaking/main/websocket"
 geovpnnnnnnnnnn="raw.githubusercontent.com/zeaking/zaking/main/ohp"
 
 # Getting
-
 MYIP=$(wget -q0- ipinfo.io/ip);
-
 echo "Checking VPS"
-
-#IZIN=$( curl
-
-https://raw.githubusercontent.com/zeaking/izin/main
-/ip.txt | grep $MYIP ) if [ $MYIP = $IZIN ]; then
+#IZIN=$( curl https://raw.githubusercontent.com/zeaking/izin/main /ip.txt | grep $MYIP )
+if [ $MYIP = $IZIN ]; then
 echo -e "${NC} ${GREEN} Permission Accepted... else
 echo -e "${NC} ${RED} Permission Denied! ${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!" echo -e "${NC}${LIGHT}Facebook: https://m.facebook.com"
@@ -57,9 +52,7 @@ echo -e "${NC} ${LIGHT}WhatsApp 088228877739"
 echo -e "${NC}${LIGHT}Telegram : https://t.me/fer1dev"
 exit 0
 fi
-
 rm setup.sh
-
 clear
 if [ -f "/etc/xray/domain" ]; then
 echo "Script Already Installed"
