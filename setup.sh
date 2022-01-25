@@ -143,8 +143,6 @@ echo "   - OHP Dropbear            : 8282"  | tee -a log-install.txt
 echo "   - OHP OpenVPN             : 8383"  | tee -a log-install.txt
 echo "   - Tr Go                   : 2053"  | tee -a log-install.txt
 echo ""| tee -a log-install.txt
-
-echo " Reboot 15 Sec"
 sleep 15
 rm -f setup.sh
 reboot
