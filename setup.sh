@@ -20,25 +20,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-geovpn="raw.githubusercontent.com/geovpn/scriptvps/main/ssh"
+geovpn="raw.githubusercontent.com/zeaking/zaking/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-geovpnn="raw.githubusercontent.com/geovpn/scriptvps/main/sstp"
+geovpnn="raw.githubusercontent.com/zeaking/zaking/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-geovpnnn="raw.githubusercontent.com/geovpn/scriptvps/main/ssr"
+geovpnnn="raw.githubusercontent.com/zeaking/zaking/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-geovpnnnn="raw.githubusercontent.com/geovpn/scriptvps/main/shadowsocks"
+geovpnnnn="raw.githubusercontent.com/zeaking/zaking/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-geovpnnnnn="raw.githubusercontent.com/geovpn/scriptvps/main/wireguard"
+geovpnnnnn="raw.githubusercontent.com/zeaking/zaking/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-geovpnnnnnn="raw.githubusercontent.com/geovpn/scriptvps/main/xray"
+geovpnnnnnn="raw.githubusercontent.com/zeaking/zaking/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-geovpnnnnnnn="raw.githubusercontent.com/geovpn/scriptvps/main/ipsec"
+geovpnnnnnnn="raw.githubusercontent.com/zeaking/zaking/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-geovpnnnnnnnn="raw.githubusercontent.com/geovpn/scriptvps/main/backup"
+geovpnnnnnnnn="raw.githubusercontent.com/zeaking/zaking/main/backup"
 # Link Hosting Kalian Untuk Websocket
-geovpnnnnnnnnn="raw.githubusercontent.com/geovpn/scriptvps/main/websocket"
+geovpnnnnnnnnn="raw.githubusercontent.com/zeaking/zaking/main/websocket"
 # Link Hosting Kalian Untuk Ohp
-geovpnnnnnnnnnn="raw.githubusercontent.com/geovpn/scriptvps/main/ohp"
+geovpnnnnnnnnnn="raw.githubusercontent.com/zeaking/zaking/main/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
@@ -49,7 +49,7 @@ echo -e "${NC}${GREEN}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RED}Permission Denied!${NC}";
 echo -e "${NC}${LIGHT}Please Contact Admin!!"
-echo -e "${NC}${LIGHT}Telegram : https://t.me/geovpn"
+echo -e "${NC}${LIGHT}Telegram : not found 1922"
 exit 0
 fi
 rm -f setup.sh
