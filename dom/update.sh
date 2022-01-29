@@ -6,7 +6,7 @@ NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 echo -e  "${RED}Checking VPS${NC}"
 sleep 2
-IZIN=$( curl https://raw.githubusercontent.com/geovpn/perizinan/main/ip | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/zeaking/izin/main/ip.txt | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${GREEN}Permission Accepted...${NC}"
 sleep 2 
